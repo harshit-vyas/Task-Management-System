@@ -1,0 +1,115 @@
+/* General Styling for Header */
+h1 span {
+    color: #8A2BE2; /* A more vibrant blue-violet */
+    text-transform: uppercase; /* Adds emphasis to the text */
+}
+
+/* Center Content Styling */
+.center-in-page {
+    background-color: #f5f5f5; /* Soft off-white background for a clean look */
+    color: #333; /* Darker text for better readability */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px; /* Adds padding for better layout */
+    box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.1); /* Soft inner shadow */
+}
+
+.welcome-page h1 {
+    font-weight: 700; /* Increased boldness */
+    font-size: 3.5rem; /* Larger for more emphasis */
+    letter-spacing: 1px; /* Slight letter-spacing for readability */
+    text-align: center; /* Center aligns text */
+    color: #444; /* Softer dark color */
+}
+
+.welcome-page .lead {
+    font-size: 1.5rem; /* Slightly larger for readability */
+    font-weight: 300; /* Lighter weight for contrast */
+    color: #555; /* Muted color */
+    text-align: center; /* Centered lead text */
+    margin-bottom: 1.5rem; /* More space between lead and button */
+}
+
+/* Headings and Typography */
+h1 {
+    font-weight: 900; /* Heaviest for extra emphasis */
+    font-size: 4rem; /* Larger heading */
+    color: #212529; /* Darker neutral color */
+}
+
+.text-primary {
+    color: #0069D9; /* A deeper blue for a modern touch */
+}
+
+.lead {
+    font-size: 1.3rem; /* Slightly larger than default */
+    line-height: 1.6; /* Improved line height for readability */
+    color: #6c757d; /* Muted text color */
+}
+
+/* Button Styling */
+.btn-primary {
+    background-color: #FF4500; /* Vibrant orange */
+    border-color: #FF4500;
+    border-radius: 30px; /* Rounded button for modern look */
+    padding: 10px 25px; /* Larger padding for more click area */
+    font-size: 1.1rem; /* Slightly larger font */
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transition for hover */
+}
+
+.btn-primary:hover {
+    background-color: #E63946; /* Darker shade on hover */
+    border-color: #E63946; /* Match border color on hover */
+    transform: scale(1.05); /* Slight scale-up on hover */
+}
+
+/* Home Page Styling */
+.home-page {
+    background: linear-gradient(to bottom right, #007bff, #FF4500); /* Smooth gradient background */
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    padding: 120px 0; /* Extra padding for vertical centering */
+    color: #fff;
+}
+
+.home-page h1 {
+    font-size: 4rem; /* Larger text for hero section */
+    font-weight: 800; /* Bold weight for emphasis */
+    text-align: center;
+    margin-bottom: 30px; /* More space below heading */
+}
+
+.home-page h1 span {
+    color: #FFA500; /* Orange for emphasis */
+}
+
+.home-page p {
+    font-size: 1.4rem; /* Larger text for better visibility */
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.7; /* Improved line height for readability */
+    color: #f0f0f0; /* Softer light color for contrast */
+}
+
+/* Additional improvements for smaller screens */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.5rem; /* Adjust heading size for smaller screens */
+    }
+
+    .home-page h1 {
+        font-size: 3rem; /* Adjust hero heading size */
+    }
+
+    .home-page p {
+        font-size: 1.2rem; /* Adjust paragraph size for readability */
+    }
+
+    .btn-primary {
+        font-size: 1rem; /* Smaller button text for mobile */
+    }
+}
